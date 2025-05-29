@@ -12,4 +12,5 @@ const proyek = new mongoose.Schema({
     
 });
 
-module.exports = mongoose.model("Proyek", proyek);
+module.exports = mongoose.model("Proyek", proyek, "proyeks"); 
+// Parameter ketiga untuk force nama collection
